@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin:0;
+    padding:0;
+}
+section{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tg{
+    display: none;
+}
+.navbar-brand span{
+    font-family: 'Source Code Pro', monospace;
+    font-size:48px;
+    font-weight: bolder;
+    color:white;
+}
+.navbar-brand span:hover{
+    text-shadow: 0 0 5px white;
+}
+.logo2 i{
+    display: none;
+}
+.logo3{
+    font-size:48px;
+    font-weight: bolder;
+    color:white;
+}
+.logo3:hover{
+    text-shadow: 0 0 5px white;
+}
+.nav-link span{
+    font-family: 'Source Code Pro', monospace;
+    font-size:25px;
+    font-weight: bolder;
+    color:white;
+}
+form{
+    font-family: 'Source Code Pro', monospace;
+}
+.nav-link span:hover{
+    text-shadow: 0 0 5px white;
+}
+.activate{
+    text-shadow: white;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 74px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.sidenav .closebtn {
+    display: none;
+}
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    }
+    .sidenav a:hover, .dropdown-btn:hover {
+        color: #f1f1f1;
+      }
+      .active {
+        background-color: green;
+        color: white;
+      }
+      .dropdown-container {
+        display: none;
+        background-color: #262626;
+        padding-left: 8px;
+      }
+      .sidenav button i{
+          padding-top: 8px;
+      }
+      .maincontent{
+          padding: 20px;
+          margin-top: 120px;
+      }
+      .righty{
+        padding: 20px;
+        margin-top: 120px;
+        position: sticky;
+        top: 0;
+      }
+      .footer{
+          background: #343a40;
+      }
+
+
+      @media only screen and (max-width: 991px) {
+          .logo span{
+              display: none;
+          }
+          .logo2 i{
+            display: initial;
+            font-size:48px;
+            font-weight: bolder;
+            color:white;
+        }
+        .logo2 i:hover{
+            text-shadow: 0 0 5px white;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 15px;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 80px;
+          }
+          .tg{
+            display: inline;
+            font-size:30px;
+            cursor:pointer;
+            color: white;
+          }
+          .sidenav .closebtn {
+            display: inline;
+            position: absolute;
+            top: 100px;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+          
+          
+        .righty{
+            display: none;
+        }
+        
+      }
